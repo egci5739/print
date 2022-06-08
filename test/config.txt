@@ -1,0 +1,6 @@
+note1:此卡仅限本人配合身份证使用, 禁止外借/多人共用/读卡后让他人通行
+note2:使用完毕或到期后3个工作日内归还至原发卡处
+note3:捡到此卡请联系：0755-84476889
+sFont:4f
+bFont:6f
+printerName:hp laserjet pro mfp m225-m226 pcl 6
