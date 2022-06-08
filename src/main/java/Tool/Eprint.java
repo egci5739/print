@@ -54,7 +54,6 @@ public class Eprint {
         return service;
     }
 
-
     /*
      * 打印指定文件
      * */
@@ -74,7 +73,7 @@ public class Eprint {
             //加载待打印文件
             document = PDDocument.load(file);
             //设置打印参数
-            PrintRequestAttributeSet aset = getPrintRequestAttributeSet(configEntity.getCopy());//打印一份
+            PrintRequestAttributeSet aset = getPrintRequestAttributeSet(configEntity.getCopy());//打印份数
             //设置纸张及缩放
             PDFPrintable pdfPrintable = new PDFPrintable(document, Scaling.SCALE_TO_FIT);//这里
             //设置打印方向：0-横向；1-纵向
